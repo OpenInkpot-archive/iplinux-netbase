@@ -1,3 +1,9 @@
+netbase (4.21.slind2) testing; urgency=low
+
+  * New build dependencies
+
+ -- Sergey Lapin <slapin@slind.org>  Tue, 29 May 2007 18:34:02 +0400
+
 netbase (4.21.slind1) testing; urgency=low
 
   * Testing prerelease.
