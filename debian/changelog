@@ -1,3 +1,10 @@
+netbase (4.21.slind3) unstable; urgency=low
+
+  * Update section field to 'core'.
+  * Change maintainer email.
+
+ -- Alexander Shishkin <virtuoso@slind.org>  Thu, 12 Jul 2007 13:59:47 +0400
+
 netbase (4.21.slind2) testing; urgency=low
 
   * New build dependencies
