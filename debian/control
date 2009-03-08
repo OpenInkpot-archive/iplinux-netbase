@@ -1,8 +1,8 @@
 Source: netbase
 Section: core
-Priority: important
-Maintainer: Alexander Shishkin <virtuoso@slind.org>
-Standards-Version: 3.6.1
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Standards-Version: 3.8.0
 XCS-Cross-Host-Build-Depends: gettext, debhelper (>= 4.1.13), po-debconf (>= 0.5.0)
 Build-Depends-Indep: gettext, debhelper (>= 4.1.13), po-debconf (>= 0.5.0)
 
