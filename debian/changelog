@@ -1,3 +1,9 @@
+netbase (4.21.zz.ip1) asimov; urgency=low
+
+  * First build for IPlinux.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sun, 08 Mar 2009 23:42:26 +0600
+
 netbase (4.21.slind3) unstable; urgency=low
 
   * Update section field to 'core'.
