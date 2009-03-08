@@ -36,7 +36,7 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_clean -k
-	dh_installdirs etc/ etc/network/ usr/sbin/
+	dh_installdirs etc/ etc/network/
 
 	install -o root -g root -m 0644 etc-protocols $D/etc/protocols
 	install -o root -g root -m 0644 etc-rpc $D/etc/rpc
