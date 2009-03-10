@@ -3,12 +3,11 @@ Section: core
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
 Standards-Version: 3.8.0
-XCS-Cross-Host-Build-Depends: gettext, debhelper (>= 4.1.13), po-debconf (>= 0.5.0)
-Build-Depends-Indep: gettext, debhelper (>= 4.1.13), po-debconf (>= 0.5.0)
+XCS-Cross-Host-Build-Depends: debhelper (>= 4.1.13)
+Build-Depends-Indep: debhelper (>= 4.1.13)
 
 Package: netbase
 Architecture: all
-Depends: slind-virtual-ifupdown, slind-virtual-ping
 Description: Basic TCP/IP networking system
  This package provides the necessary infrastructure for basic TCP/IP based
  networking.
