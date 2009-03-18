@@ -4,20 +4,9 @@ create_etc_network() {
   [ -d /etc/network/ ] || mkdir -p /etc/network/
 }
 
-create_options_file() {
-  if [ ! -f /etc/network/options ]; then
-	cat <<-EOC >/etc/network/options
-	ip_forward=no
-	spoofprotect=yes
-	syncookies=no
-	EOC
-  fi
-}
-
 case "$1" in
     install)
     create_etc_network
-    create_options_file
     ;;
 
     upgrade|abort-upgrade)
