@@ -1,3 +1,9 @@
+netbase (4.34.ip.2) asimov; urgency=low
+
+  * preinst/postinst scripts no longer touch /etc/network/options.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Thu, 19 Mar 2009 02:07:40 +0600
+
 netbase (4.34.ip.1) asimov; urgency=low
 
   * New version for IPlinux.
